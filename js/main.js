@@ -37,7 +37,7 @@ function renderModal(projId) {
     <p>${currProject.desc}</p>
     <ul class="list-inline">
       <li>Date: October 2018</li>
-      <li><a href="${currProject.url}"><b>gitHub link</b></a></li>
+      <li><a href="${currProject.url}"><b>Link</b></a></li>
       <li>labels: ${currProject.labels}</li>
     </ul>
     <button class="btn btn-primary" data-dismiss="modal" type="button">
