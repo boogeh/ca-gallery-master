@@ -13,16 +13,44 @@ function createProjects() {
             'PacMan',
             'PacMan in a 2d array',
             'The first really lousy pacman in the world!',
-            'url',
+            'https://boogeh.github.io/pacman/index.html',
             ['game', 'pacman'],
-            'https://via.placeholder.com/400x300'),
+            'pacman.jpg'),
         createProject(
             'Minesweeper',
             'Minesweeper homemade!',
             'My first sprint test. Made a minesweeper!',
             'https://boogeh.github.io/minesweeper/',
             ['game', 'minesweeper'],
-            '/img/portfolio/minesweeper.jpg')
+            'minesweeper.jpg'),
+        createProject(
+            'Touch Nums',
+            'Are you fast enough?',
+            'Click the numbers by order as fast as you can!',
+            'https://boogeh.github.io/touch-nums/index.html',
+            ['game', 'numbers'],
+            'touch-the-nums.jpg'),
+        createProject(
+            'Book Store',
+            'First attempt at a bit of UI',
+            'Welcome to the bookstore! Not a very fancy one, but you can sort both ways!',
+            'https://boogeh.github.io/book-store/index.html',
+            ['page', 'table', 'book store'],
+            'book-store.jpg'),
+        createProject(
+            'Chess',
+            'Moving chess pieces',
+            'Moving chess pieces while learning 2d Arrays',
+            'https://boogeh.github.io/chess/index.html',
+            ['page', 'chess', '2d array'],
+            'chess.jpg'),
+        createProject(
+            'In-Picture',
+            'Can you get it right?',
+            'A cute game for kids and first attempt with a bit of css',
+            'https://boogeh.github.io/in-picture/',
+            ['game', 'css'],
+            'in-picture.jpg')
 
     ]
 }
