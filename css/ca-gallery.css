@@ -85,7 +85,7 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100000;
-    background: red;
+    background: #97d4ff70;
     width: 30vw;
     left: -30vw;
     transition: all 0.3s ease;
@@ -174,7 +174,7 @@ body {
 }
 header.masthead {
     text-align: center;
-    color: white;
+    color: #ffffffab;
     background-image: url("../img/header-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -187,13 +187,15 @@ header.masthead {
 header.masthead .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
+    position: relative;
+    bottom: 100px;
 }
 header.masthead .intro-text .intro-lead-in {
-    font-size: 22px;
+    font-size: 15px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 15px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'VT323', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 header.masthead .intro-text .intro-heading {
     font-size: 50px;
@@ -213,7 +215,7 @@ header.masthead .intro-text .intro-heading {
         font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
-        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: 'VT323', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
     header.masthead .intro-text .intro-heading {
         font-size: 75px;
@@ -247,7 +249,7 @@ header.masthead .intro-text .intro-heading {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(254, 209, 54, 0.9);
+    background: rgba(143, 38, 108, 0.562);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
@@ -691,20 +693,20 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl.focus,
 .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    border-color: #a0478d;
+    background-color: #682259;
 }
 .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #a0478d;
+    background-color: #682259;
 }
 .btn-xl.active,
 .btn-xl:active,
 .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #a0478d;
+    background-color: #682259;
 }
 .btn-xl.active.focus,
 .btn-xl.active:focus,
@@ -740,3 +742,8 @@ fieldset[disabled] .btn-xl:hover {
     color: #b16da2;
     background-color: white;
 }
+
+#services{
+    background-color: lightgray;
+}
+
