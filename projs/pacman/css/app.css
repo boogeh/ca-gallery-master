@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  color:white;
+  background-image: url('../pacmanbg.jpg');
+  opacity: 50%;
+}
+
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.board-container {
+  margin: 5% auto;
+  width: 30%;
+  text-align: center;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+}
+
+.modal {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-color: rgba(0,0,0,0);
+  color: darkgreen;
+  /* display: none; */
+  text-align: center;
+  bottom: 40%
+}
+
+h3 {
+  position: absolute;
+  font-size: 6rem;
+  z-index: -1;
+  color: yellowgreen;
+}
+
+
+
+.game-over {
+  color: red;
+  text-shadow: 1px 1px 1px white;
+  font-size: 60px;
+  display: none;
+}
+
+.btn-replay:hover {
+  color: white;
+  text-shadow: 2px 2px 5px red;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.winner {
+  color: green;
+  text-shadow: 1px 1px 1px white;
+  font-size: 60px;
+  display: none;
+}

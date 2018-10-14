@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.game-box {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 600px;
+        height: 600px;
+        background-color: purple;
+        border-radius: 8px;
+        text-align: center;
+        z-index: 1;
+}
+
+.picture {
+    width: 600px;
+    height: 300px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.answer {
+    height: 100px;
+    width: 80%;
+    display: inline-block;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: #e67e22;
+    box-shadow: 0px 5px 0px 0px #CD6509;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;       /* the same as your div height */
+}
+
+.answer:hover {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+    background-color: #FF983C;
+    cursor: pointer;
+}
+
+.winner {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 600px;
+    background-color: purple;
+    border-radius: 8px;
+    text-align: center;
+    display: none;
+    z-index: 2;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    font-size: 60pt;
+    vertical-align: middle;
+    position: relative;
+    top: 24%; 
+    left: 13%;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.replay-button {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    background-color: #9b59b6;
+    box-shadow: 0px 5px 0px 0px #82409D;
+    position: relative;
+    top: 80%;
+    right: 30%;
+}
+
+.replay-button:hover {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+    background-color: #B573D0;
+    cursor: pointer;
+}

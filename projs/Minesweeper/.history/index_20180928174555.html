@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron|Roboto+Mono|Patrick+Hand' rel='stylesheet' type='text/css'>
+    <title>Minesweeper</title>
+</head>
+
+<body onload="initGame()">
+    <div class="container">
+        <div class="smiley" onclick="initGame()"></div>
+        <!-- CR: Very nice the smiley:hover pointer curser.
+            But why not on buttons too?  -->
+        <div class="buttons">
+            <input type="button" class="button" value="Easy" onclick="setDifficulty('easy')">
+            <input type="button" class="button" value="Medium" onclick="setDifficulty('medium')">
+            <input type="button" class="button" value="Expert" onclick="setDifficulty('expert')">
+            <input type="button" class="button" onclick="initGame()" value="Restart Game">
+        </div>
+        <div class="table">
+            <table cellpadding="0" oncontextmenu="return false">
+                <tbody class="board">
+                </tbody>
+            </table>
+            <div class="timer"><span></span></div>
+        </div>
+        <div class="winner">Good job!</div>
+        <div class="loser">Game Over!</div>
+        <div class="best-time"><span></span></div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

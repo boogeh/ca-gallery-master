@@ -1,0 +1,36 @@
+table {
+    border-radius: 5px;
+}
+
+img {
+    width: 100px;
+}
+
+.collapse, .book-collapse {
+    display: inline-block;
+    background-color: #23813f;
+    border-radius: 10px;
+}
+
+.rate-control-text {    
+    width: 50px;
+}
+
+.input-update-price {
+    display: none;
+}
+
+th:hover {
+    background-color: hotpink;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+h1 {
+    font-size: 60px;
+    color: #fae276
+
+}
+
+.ids {
+    color: #fae276
+}
