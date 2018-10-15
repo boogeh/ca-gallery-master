@@ -20,7 +20,7 @@ function createProjects() {
             'Minesweeper',
             'Minesweeper homemade!',
             'My first sprint test. Made a minesweeper!',
-            'projs/minesweeper/index.html',
+            'projs/Minesweeper/index.html',
             ['game', 'minesweeper'],
             'minesweeper.jpg'),
         createProject(

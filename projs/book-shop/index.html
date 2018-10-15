@@ -7,30 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Book Store</title>
+    <title data-trans="window-title">Book Store</title>
 </head>
 
 <body class="bg-dark" onload="init()">
     <div class="container">
-        <h1 class="text-xl-left mb-5">Le BookStore!</h1>
+        <h1 class="text-xl-left mb-5" data-trans="title">Le BookStore!</h1>
         <nav>
+                <select class="change-leng" onchange="onSetLang(this.value)">
+                    <option value="en">English</option>
+                    <option value="he">Hebrew</option>
+                </select>
             <ul class="pagination">
                 <li class="page-item">
-                    <a class="page-link" onclick="onLastPage()">Previous</a>
+                    <a class="page-link" onclick="onLastPage()" data-trans="prev-btn">Previous</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" onclick="onNextPage()">Next</a>
+                    <a class="page-link" onclick="onNextPage()" data-trans="next-btn">Next</a>
                 </li>
             </ul>
         </nav>
         <table class="main-table table table-fit table-hover table-dark">
             <thead>
                 <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col" onclick="onSortByPrice(this, 1)">Title</th>
-                    <th scope="col" onclick="onSortByPrice(this, 1)">Price</th>
-                    <th scope="col">Rating</th>
-                    <th scope="col">Actions</th>
+                    <th scope="col" data-trans="id">ID</th>
+                    <th scope="col" onclick="onSortByPrice(this, 1)" data-trans="table-title">Title</th>
+                    <th scope="col" onclick="onSortByPrice(this, 1)" data-trans="table-price">Price</th>
+                    <th scope="col" data-trans="table-rating">Rating</th>
+                    <th scope="col" data-trans="table-actions">Actions</th>
                 </tr>
             </thead>
             <tbody></tbody>
@@ -44,6 +48,7 @@
     </div>
     <script src="lib/jquery/jquery.js"></script>
     <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/i18n-service.js"></script>
     <script src="js/util-service.js"></script>
     <script src="js/book-service.js"></script>
     <script src="js/main.js"></script>

@@ -50,7 +50,7 @@ function createBook(name, price) {
         id: makeId(),
         name: name,
         price: price,
-        imgUrl: '../img/book.png',
+        imgUrl: 'img/book.png',
         rating: 1
     }
 }

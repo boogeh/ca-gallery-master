@@ -1,3 +1,13 @@
+table.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 table {
     border-radius: 5px;
 }
